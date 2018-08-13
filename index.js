@@ -77,9 +77,9 @@ function removeFromCart(item)
     }
     if (itemInCart===false)
     {
-      
+
     }
-    
+
   }
   return "That item is not in your cart.";
 }
