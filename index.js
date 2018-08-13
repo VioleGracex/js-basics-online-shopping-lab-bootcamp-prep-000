@@ -88,6 +88,6 @@ function placeOrder(cardNumber)
   {
     var totalpricy=total();
     cart = [];
-    return ("Your total cost is $" +  + ", which will be charged to the card " + cardNumber + "." );
+    return ("Your total cost is $" + totalpricy + ", which will be charged to the card " + cardNumber + "." );
   }
 }
